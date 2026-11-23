@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: "${SUBTITLE_DB_URL:jdbc:mysql://127.0.0.1:3306/subtitle_ai_db}"
+    username: "${SUBTITLE_DB_USER}"
+    password: "${SUBTITLE_DB_PASSWORD}"
+  sql:
+    init:
+      mode: never

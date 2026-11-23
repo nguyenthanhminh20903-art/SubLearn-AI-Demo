@@ -1,0 +1,10 @@
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.setup-*
+.DS_Store
+ai-service/data/*
+!ai-service/data/.gitkeep
+backend/target/
